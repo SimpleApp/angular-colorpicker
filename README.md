@@ -8,8 +8,8 @@ Licensed under the MIT.
 
 ## What is it
 This code is a first try of wrapping jQuery.colorpicker as a angularjs directive.
-project structure is angular-seed (https://github.com/angular/angular-seed)
-port is heavily inspired by angular-ui.datepicker  (https://github.com/angular-ui/angular-ui/blob/master/modules/directives/date/date.js)
+project structure is [angular-seed](https://github.com/angular/angular-seed)
+port is heavily inspired by [angular-ui.datepicker](https://github.com/angular-ui/angular-ui/blob/master/modules/directives/date/date.js)
 
 ## How do you use it
 This directive should probably be packaged in the angular-ui project. I don't have the time to package it properly for now (fork welcome). 
@@ -25,19 +25,19 @@ Options for the picker are set in the controller's scope using a scope variable 
 See in app/index.html. Briefly : 
 
 ### index.html : 
-...
-<input sa-colorpicker="coloroptions" ng-model="mycolor"></input>
-...
+    ...
+    <input sa-colorpicker="coloroptions" ng-model="mycolor"></input>
+    ...
 
 ### Controller.js
-...
-$scope.mycolor = 'FF0000';
-$scope.coloroptions = {
-		parts: 'full',
-		showOn: 'both',
-		buttonColorize: true,
-		showNoneButton: false,
-		alpha: false
-	};
-...
+    ...
+    $scope.mycolor = 'FF0000';
+    $scope.coloroptions = {
+    	parts: 'full',
+    	showOn: 'both',
+    	buttonColorize: true,
+    	showNoneButton: false,
+    	alpha: false
+    };
+    ...
   
