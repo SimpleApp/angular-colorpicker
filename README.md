@@ -1,6 +1,6 @@
-jQuery.colorpicker v0.9.3 - as Angular-ui directive v0.0.1
+# jQuery.colorpicker v0.9.3 - as Angular-ui directive v0.0.1
 
-angular-ui-colorpicker is Copyright (c) 2012 Simple App (http://www.simpleapp.fr)
+angular-ui-colorpicker is Copyright (c) 2012 [Simple App](http://www.simpleapp.fr)
 Licensed under the MIT.
  
 original code from jQuery.colorpicker is Copyright (c) 2011-2012 Martijn W. van der Lee
