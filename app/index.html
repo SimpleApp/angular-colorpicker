@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Color picker sample</title>
+  <link rel="stylesheet" href="css/app.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="lib/colorpicker/jquery.colorpicker.js"></script>
+<link href="lib/colorpicker/jquery.colorpicker.css" rel="stylesheet" type="text/css"/>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</head>
+<body ng-controller="Controller">
+	<input sa-colorpicker="coloroptions" ng-model="mycolor"></input>
+	<button ng-click="onClick()" >click me</button>
+	<button ng-click="resetToGreen()" >change to green</button>
+</body>
+</html>
